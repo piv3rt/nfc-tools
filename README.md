@@ -15,7 +15,7 @@ Try it!
 > python mifare-1k-diff tags/mifare-1k-blank tags/mifare-1k-locked
 
 ### mifare-1k-safe
-Edit MIFARE 1k access conditions to avoid locked keys
+Edit MIFARE 1k sector trailer to avoid locking access bits forever
 
 Try it!
 > python mifare-1k-safe tags/mifare-1k-locked tags/mifare-1k-unlocked
